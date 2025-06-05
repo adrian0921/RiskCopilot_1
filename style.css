@@ -1,0 +1,78 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f1117;
+  font-family: 'Segoe UI', sans-serif;
+  color: #e0e0e0;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+.logo {
+  width: 64px;
+  margin-bottom: 1rem;
+}
+.tagline {
+  color: #14f1ff;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.intro p {
+  max-width: 700px;
+  margin: 1rem auto;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.badge {
+  background-color: #1a1c23;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid #14f1ff20;
+}
+.badge img {
+  width: 24px;
+  height: 24px;
+}
+.modes h2 {
+  margin-bottom: 1rem;
+}
+.modes ul {
+  list-style: none;
+  padding: 0;
+}
+.modes li {
+  background-color: #1a1c23;
+  margin: 0.5rem auto;
+  max-width: 300px;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #14f1ff30;
+}
+.radar {
+  margin-top: 1.5rem;
+  width: 250px;
+}
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #888;
+}
+footer a {
+  display: block;
+  margin-top: 0.5rem;
+  color: #14f1ff;
+  text-decoration: none;
+}
